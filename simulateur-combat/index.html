@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulateur de combat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Combat</h1>
+        
+        <div class="combatants">
+            <div class="combatant" id="VI">
+                <h2>VI</h2>
+                <p>Points de Vie: <span id="pv1">150</span></p>
+                <p>Attaque: 18</p>
+                <p>Précision: 80%</p>
+            </div>
+
+            <div class="combatant" id="JINX">
+                <h2>JINX</h2>
+                <p>Points de Vie: <span id="pv2">120</span></p>
+                <p>Attaque: 23</p>
+                <p>Précision: 60%</p>
+            </div>
+        </div>
+
+        <div class="status">
+            <p id="message">Préparez-vous au combat !</p>
+        </div>
+
+        <button id="startBtn">Démarrer le Combat</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
